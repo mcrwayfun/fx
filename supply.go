@@ -31,6 +31,7 @@ import (
 // Supply provides instantiated values for dependency injection as if
 // they had been provided using a constructor that simply returns them.
 // The most specific type of each value (as determined by reflection) is used.
+// Supply 为依赖注入提供实例化好的值，好比它们是使用构造函数然后返回一样，每个值的类型由反射来决定。
 //
 // This serves a purpose similar to what fx.Replace does for fx.Decorate.
 //
